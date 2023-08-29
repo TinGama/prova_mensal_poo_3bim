@@ -1,11 +1,10 @@
 class Maratonista extends Pessoa implements Corredor{
-
-   public Estradista(String name) {
-        super(13); 
-        this.name = name;
+    public String nome;
+   public Maratonista(String name) { 
+        this.nome = nome;
     }
 
-    public Estradista() {
+    public Maratonista() {
         this("José dos Santos");
     }
 

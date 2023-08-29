@@ -9,13 +9,13 @@
 
         Maratonista mineiro = new Maratonista();
         mineiro.setNome("José dos Santos");
-        mineiro.correr(15);
+        mineiro.correr(35);
         
             System.out.println("\n\n");
 
         Estradista corisco = new Estradista();
         corisco.setNome("Manoela Assis");
-        corisco.pedalar(20);
+        corisco.pedalar(25);
 
             System.out.println("\n\n");
 
